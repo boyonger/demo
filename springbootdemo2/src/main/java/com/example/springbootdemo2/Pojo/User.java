@@ -1,17 +1,10 @@
 package com.example.springbootdemo2.Pojo;
 
 
-import javax.persistence.*;
 
-@Entity
-@Table(name="user_table")
 public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int uid;
-    @Column(name="user_name",nullable = false)
     private String userName;
-    @Column(name="user_phone",nullable = false)
     private String userPhone;
 
     public User(String userName, String userPhone) {
