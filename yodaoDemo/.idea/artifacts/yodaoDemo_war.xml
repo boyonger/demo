@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yodaoDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="yodaoDemo.war">
+      <element id="artifact" artifact-name="yodaoDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
